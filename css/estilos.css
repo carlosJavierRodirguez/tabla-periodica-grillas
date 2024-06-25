@@ -1,0 +1,610 @@
+/*
+Autor: Carlos Javier Rodriguez Manchola
+Fecha: 21/05/2024
+Modificación: 27/05/2024
+*/
+.titulo{
+    
+    color: red;
+    background-color: white;
+    border: white solid 1px;
+    margin: 20px 0px 30px 130px;
+    font-size: 28px;
+    width: 800px;
+    
+}
+.sin{
+    font-size: 12px;
+    margin: -15px 0px 0px 107px;
+}
+.tc{
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+}
+.solido{
+    font-size: 13px;
+    margin: -15px 0px 0px 90px;
+}
+.l{
+    font-size: 13px;
+    margin: -15px 0px 0px 20px;
+}
+.ne{
+    text-shadow: #7e05ff 1px 1px 3px;
+    font-size: 13px;
+    margin: -5px 0px 0px 0px;
+}
+.body{
+    background-image: radial-gradient(rgb(78, 159, 241),rgb(175, 92, 160) )
+}
+.estado{
+    font-size: 12.8px;
+}
+
+.liquido{
+    margin: -24px 0px 0px 25px;
+    font-size: 13px;
+}
+
+.box2{
+    width: 170px;
+    height: 56px;
+    border: #000 solid 1px;
+    margin: -40px 0px 0px 170px;
+    background-color: white;
+}
+
+.box{
+    width: 250px;
+    height: 125px;
+    border: #000 solid 1px;
+    margin: 0px 0px 0px 60px;
+    background-color: white;
+}
+.cuadros{
+    width: 20px;
+    height: 20px;
+    border: #000 solid 1px;
+}
+
+.cuadroSemiMetal{
+    background-color:rgb(255, 104, 3);
+    margin: -17px 0px 0px 63px;
+}
+.SemiMetalCuadro{
+    margin: -18px 0px 0px 87px;
+    font-size: 13px;
+}
+.cuadroNoMetal{
+    background-color:rgb(69, 197, 6);
+    margin: -17px 0px 0px 153px;
+}
+.cuadroNoMetales{
+    background-color:rgb(147, 198, 30);
+    margin: -17px 0px 0px 153px;
+}
+.cuadroNoMetales{
+    background-color:rgb(147, 198, 30);
+    margin: -17px 0px 0px 153px;
+}
+.noMetalCuadro{
+    margin: -18px 0px 0px 175px;
+    font-size: 13px;
+}
+.cuadroMetaleTransicion{
+    margin: 5px 0px 0px 2px;
+    background-color:blueviolet;
+}
+
+
+
+
+
+.gasesNoblesCuadro{
+    margin: -18px 0px 0px 175px;
+    font-size: 12px;
+}
+
+.cuadroGasesNobles{
+   background-color: aqua;
+   margin: -17px 0px 0px 153px;
+}
+
+
+
+
+
+
+
+
+.cuadroMetal{
+    background-color:blueviolet;
+    margin: 2px 0px 0px 2px;
+}
+.metalCuadro{
+    margin: -18px 0px 0px 25px;
+    font-size: 13px;
+}
+
+.cuadroMetalesRepresentativos{
+    background-color:rgb(0, 217, 255);
+    margin: 5px 0px 0px 2px;
+}
+
+.metalesRepresentativosCuadro{
+    margin: -16px 0px 0px 25px;
+    font-size: 11px;
+}
+.cuadroLantanidos{
+    background-color:rgb(201, 78, 172);
+    margin: 5px 0px 0px 25px;
+}
+
+.lantanidosCuadro{
+    margin: -16px 0px 0px 50px;
+    font-size: 11px;
+}
+
+.cuadroActinidos{
+    background-color:rgb(253, 144, 239);
+    margin: 5px 0px 0px 25px;
+}
+
+.actinidosCuadro{
+    margin: -16px 0px 0px 50px;
+    font-size: 11px;
+}
+.lineaBox{
+    width: 230px;
+    border: #000 solid 1px;
+    margin: 8px 0px 0px 10px;
+}
+.silicio{
+    color: #000;
+    font-size: 10px;
+}
+.escandio{
+    margin: 0px 0px 0px -5px;
+    color: #000;
+    font-size: 10px;
+}
+.potasio{
+    margin: -1px 0px 0px -2px;
+    color: #000;
+    font-size: 10px;
+}
+.letra1{
+    margin: -40px 0px 0px 9px;
+    font-size: 30px;
+}
+
+.letra2{
+    margin: -39px 0px 0px 2px;
+    font-size: 30px;
+}
+
+.letra3{
+    margin: 0px 0px 0px -8px;
+    font-size: 24px;
+}
+.californio{ 
+    margin: -1px 0px 0px -8px;
+    font-size: 9px;}
+.utt{
+    margin: 8px 0px 0px -10px;
+    font-size: 24px;
+}
+.unum{
+    margin: 4px 0px 0px -10px;
+    font-size: 8px;
+}
+.rf{
+    margin: -25px 0px 0px 2px;
+    font-size: 30px;
+}
+.db{
+    margin: 3px 0px 0px 0px;
+    font-size: 30px;
+}
+.darmstadtio{
+    margin: -1px 0px 0px -9px;
+    font-size: 8px;
+}
+.hidrogeno{
+    margin: 0px 0px 0px -11px;
+    font-size: 10px;
+}
+
+.rutherfordio{
+    margin: 2px 0px 0px -12px;
+    font-size: 8px;
+}
+.roentgenio{
+    margin: 2px 0px 0px -7px;
+    font-size: 8px;
+}
+.magnesio{
+    margin: -2px 0px 0px -7px;
+    font-size: 10px;
+}
+
+.numeroAtomico{
+    margin:-1px 0px 0px -10px;
+    color: #000;
+    font-size: 15px;
+    position: relative;
+}
+
+.helio{
+   margin: -2px 0px 0px 4px;
+    color: #000;
+    font-size: 10px;
+}
+
+.nitrogeno{
+    margin: -2px 0px 0px -11px;
+    font-size: 10px;
+}
+.numero{
+    font-size: 4px;
+    margin: 0px 0px 0px 0px;
+}
+
+.principal{
+    display: block;
+    float: left;
+    width: 1200px;
+}
+
+.periodo{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 66px;
+    
+}
+
+
+
+.elemento:hover{
+    transform: scale(1.05);
+}
+.elemento{
+    border: 0.5px solid #000;
+    height: 66px;
+    width: 66px;
+    position: relative;
+
+}
+.oro{
+    margin-left: 5px;
+    font-size: 10px;
+}
+.aluminio{
+  margin: 0px 0px 0px -7px;
+    font-size: 10px;
+}
+.azufre{
+    font-size: 10px;
+}
+
+.estroncio{
+    margin: -2px 0px 0px -10px;
+    font-size: 10px;
+}
+/*Estrucuturas*/
+.estructura1{
+    margin: -5px 0px 0px 10px;
+    font-size: 8px;
+    color: #000;
+}
+
+.estructura2{
+    margin: -5px 0px 0px 5px;
+    font-size: 8px;
+    color: #000;
+}
+
+.estructura3{
+    margin: -3px 0px 0px 5px;
+    font-size: 8px;
+    color: #000;
+}
+.estructura4{
+    margin: -3px 0px 0px 7px;
+    font-size: 6px;
+    color: #000;
+}
+
+.estructura5{
+    margin: -2px 0px 0px 3px;
+    font-size: 5px;
+    color: #000;
+}
+
+.estructura7{
+    margin: -2px 0px 0px 2px;
+    font-size: 6px;
+    color: #000;
+
+}
+
+.estructura9{
+    margin: -2px 0px 0px 1px;
+    font-size: 5px;
+    color: #000;
+}
+/*
+Estilos de masas atomicas
+*/
+.masaAtomica2{
+    margin: -18px 0px 0px 32px;
+    font-size: 10px;
+    color: #000;
+    text-align: right;
+}
+.masaAtomica3{
+    margin: -18px 0px 0px 28px;
+    font-size: 10px;
+    color: #000;
+    text-align: right;
+}
+.masaAtomica4{
+    margin: -18px 0px 0px 22px;
+    font-size: 10px;
+    text-align: right;
+}
+.masaAtomica5{
+    margin: -18px 0px 0px 17px;
+    font-size: 10px;
+    text-align: right;
+}
+.masaAtomica6{
+    margin: -18px 0px 0px 10px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.masaAtomica7{
+    margin: -18px 0px 0px 10px;
+    font-size: 8px;
+    text-align: right;
+}
+
+.bromo{
+    color: red;
+}
+
+
+.manganeso{
+    margin: 1px 0px 0px -10px;
+    font-size: 9px;
+}
+
+
+.metales{
+    margin: 0px 0px 0px 0px;
+    font-size: 10px;
+}
+
+.bloque{
+    margin: 0px 0px 0px 0px;
+    font-size: 10px;
+}
+.nRomano{
+    margin: -20px 0px 0px 0px;
+}
+.ngrupo{
+    margin: -30px 0px -23px -8px;
+}
+
+.oxigeno{
+    font-size: 10px;
+    margin: -2px 0px 0px -2px;
+}
+
+.neon{
+    font-size: 30px;
+    margin: -39px 0px 0px 6px;
+}
+/*
+Estilos de los estados de oxidación
+*/
+.estadoOxidacion{
+    margin: 0px 0px 0px 20px;
+    font-size: 8px;
+    text-align: right;
+}
+.estadoOxidacion1{
+    margin: 0px 0px 0px 41px;
+    font-size: 8px;
+    color: #000;
+    text-align: right;
+}
+.estadoOxidacion2{
+    margin: 0px 0px 0px 34px;
+    font-size: 8px;
+    text-align: right;
+}
+.estadoOxidacion3{
+    margin: 0px 0px 0px 29px;
+    font-size: 8px;
+    text-align: right;
+}
+.estadoOxidacion4{
+    margin: 0px 0px 0px 26px;
+    font-size: 8px;
+    text-align: right;
+}
+.estadoOxidacion5{
+    margin: 0px 0px 0px 18px;
+    font-size: 8px;
+    text-align: right;
+}
+.estadoOxidacion6{
+    margin: 0px 0px 0px 5px;
+    font-size: 7px;
+    text-align: right;
+    
+}
+.estadoOxidacion7{
+    margin: 0px 0px 0px 9px;
+    font-size: 8px;
+    text-align: right;
+}
+
+.gas{
+    text-shadow: #7e05ff 1px 1px 3px;
+}
+.lr{
+    position: relative;
+    margin: -35px 0px 0px 2px;
+    font-size: 30px;
+}
+/*
+Estilos de las electro negatividades
+*/
+.electroNegatividadNn{
+
+    margin: -13px 0px 0px -10px;
+    font-size: 8px;
+    position: relative;
+}
+.electroNegatividad2{
+    margin: 0px 0px 0px 38px;
+    font-size: 7px;
+    color: #000;
+    text-align: right;
+}
+.electroNegatividad3{
+    margin: 0px 0px 0px 34px;
+    font-size: 7px;
+    text-align: right;
+}
+
+/*
+Estilos de radio atomico
+*/
+.nn{
+    color: #000;
+    margin: -13px 0px 0px -10px;
+    font-size: 8px;
+    position: relative;
+}
+.radioAtomico2{
+    margin: -13px 0px 0px -10px;
+    font-size: 6px;
+     position: relative;
+}
+.radioAtomico3{
+    margin: -13px 0px 0px -5px;
+    font-size: 6px;
+     position: relative;
+}
+
+/*
+Estilos de punto de ebullición
+*/
+.puntoEbullicion1{
+   margin:0px 0px 0px -10px;
+    color: #000;
+    font-size: 6px;
+     position: relative;
+}
+.puntoEbullicion3{
+    margin: 0px 0px 0px -11px;
+    color: #000;
+    font-size: 6px;
+     position: relative;
+}
+.puntoEbullicion4{
+    margin: 0px 0px 0px -12px;
+    color: #000;
+    font-size: 6px;
+     position: relative;
+}
+.puntoEbullicion5{
+    margin: 0px 0px 0px -11px;
+    font-size: 6px;
+     position: relative;
+}
+/*
+Estilos de punto de fusión
+*/
+.puntoFusion{
+    margin: 0px 0px 0px -11px;
+    font-size: 6px;
+    color: #000;
+    position: relative;
+}
+/*
+Estilos de densidades
+*/
+.densidad{
+    margin: 0px 0px 0px -11px;
+    font-size: 6px;
+    color: #000;
+    position: relative;
+}
+
+/*
+Estilos de ionización
+*/
+.ionizacionN{
+    margin: 15px 0px 0px -11px;
+    font-size: 6px;
+    color: #000;
+    position: relative;
+}
+.ionizacion{
+    margin: 0px 0px 0px -11px;
+    font-size: 6px;
+    color: #000;
+    position: relative;
+}
+/*Color de los elementos*/
+.noMetales{
+    background-color: rgb(147, 198, 30);
+}
+
+.noMetal{
+    background-color: rgb(69, 197, 6);
+}
+
+.metalesRepresentativos{
+    background-color: rgb(0, 217, 255);
+}
+
+.semiMetal{
+    background-color:rgb(255, 104, 3) ;
+}
+
+.metal{
+    background-color: blueviolet;
+}
+
+.lantanidos{
+    background-color: rgb(201, 78, 172);
+}
+
+.actinidos{
+    background-color: rgb(253, 144, 239);
+}
+
+.sinteticos{
+    background-color: white;
+}
+
+.sinteticosLetra{
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+
+}
+/*Estilos imagenes*/
+.imgHidrogeno{
+    width: 150px; /* Ancho deseado */
+    height: 100px; /* Alto deseado */
+}
+
+.texto{
+    text-align: justify;
+}
